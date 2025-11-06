@@ -5,6 +5,17 @@
   --gray-950: hsl(0, 0%, 7%);
 }
 
+body {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Figtree", sans-serif;
+  color: var(--gray-950);
+}
+
 .figtree-500 {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
@@ -33,6 +44,20 @@
 
 p {
   font-size: 16px;
+}
+
+.description {
+  color: var(--gray-500);
+}
+
+.card-body {
+  background: var(--white);
+  height: auto;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  width: 320px;
+  margin: auto;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 375px) {
