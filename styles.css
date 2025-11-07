@@ -54,10 +54,12 @@ p {
   background: var(--white);
   height: auto;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  border: 1px solid; 
   border-radius: 20px;
   width: 320px;
   margin: auto;
   overflow: hidden;
+  box-shadow: 7px 7px;
 }
 
 .card-container {
@@ -105,6 +107,18 @@ img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
+}
+
+.tag-cloud {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: var(--yellow);
+  margin-top: 5px;
+}
+
+h1:hover {
+  color: var(--yellow);
 }
 
 /* Layouts */
